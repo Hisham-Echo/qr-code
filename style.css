@@ -1,0 +1,77 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Light-gray, lightgrey);
+    font-family: "Outfit", sans-serif;
+}
+
+.card {
+    width: 360px;
+    margin: 10px;
+    background-color: var(--White, white);
+    padding: 15px;
+    text-align: center;
+    /**/
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    /**/
+    transform: translate(calc(50vw - (50% + 20px)), calc(50vh - (50% + 20px)));
+    -webkit-transform: translate(
+        calc(50vw - (50% + 20px)),
+        calc(50vh - (50% + 20px))
+    );
+    -moz-transform: translate(
+        calc(50vw - (50% + 20px)),
+        calc(50vh - (50% + 20px))
+    );
+    -ms-transform: translate(
+        calc(50vw - (50% + 20px)),
+        calc(50vh - (50% + 20px))
+    );
+    -o-transform: translate(
+        calc(50vw - (50% + 20px)),
+        calc(50vh - (50% + 20px))
+    );
+}
+
+.card .qr img {
+    width: 100%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.card .text h2 {
+    padding: 0 10px;
+    color: var(--Dark-blue, darkblue);
+}
+
+.card .text p {
+    padding: 0 25px;
+    color: var(--Grayish-blue, grey);
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
