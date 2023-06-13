@@ -85,3 +85,9 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+**Live preview:**
+https://hisham3243.github.io/qr-code/
+
+**Source:**
+https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H
