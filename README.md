@@ -87,7 +87,7 @@ This challenge is completely free. Please share it with anyone who will find it 
 **Have fun building!** 🚀
 
 **Live preview:**
-https://hisham3243.github.io/qr-code/
+https://hisham-echo.github.io/qr-code/
 
 **Source:**
 https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H
